@@ -1,3 +1,15 @@
+# Resolução do desafio da Refera 
+
+Segue a resolução do desafio de Engenharia de dados da REFERA no qual foi criado um script em python com o objetivo de extrair e carregar o banco de dados.
+
+Primeiramente foi feito todo o passo a passo de configuração do ambiente do linux/docker. Os bancos de dados foram configurados usando docker composer através do git clone.
+
+ No **script.py** usa a biblioteca psycopg2 para estabelecer a conexão com os bancos de dados. Ele também define uma lista de tabelas que serão transferidas do banco de dados `transacional`(dvdrental) para o banco de dados `analytics´`.
+
+PS: Tive dificuldades em carregar as tabelas que estão comentadas no código.
+
+Adorei o desafio!!
+
 # Seja bem vindo ao desafio de engenharia de dados da Refera!
 
 ⚠️⚠️ Não faça fork deste repositório!
